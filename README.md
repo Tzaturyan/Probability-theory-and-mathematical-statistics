@@ -45,7 +45,6 @@ It is known that the general population is normally distributed
 with a mean square deviation of 16.
 Find a confidence interval for estimating the mathematical expectation of a with a reliability of 0.95
 if the sample average is M = 80 and the sample size is n = 256.
-
 As a result of 10 independent measurements of a certain value X, performed with the same accuracy,
 experimental data were obtained:
 6.9, 6.1, 6.2, 6.8, 7.5, 6.3, 6.4, 6.9, 6.7, 6.1
@@ -55,9 +54,25 @@ value with a confidence probability of 0.95.
 Run a hypothesis test. It is claimed that the bearing balls made by an automatic machine have an average diameter of 17 mm.
 Using a one-sided criterion with α = 0.05, test this hypothesis if in a sample of n = 100 balls the average diameter
 turned out to be 17.5 mm, and the variance is known and equal to 4 sq. mm.
-
 Run a hypothesis test. The seller claims that the average weight of a pack of cookies is 200 g.
 A sample of 10 packs was extracted from the batch. The weight of each pack is:
 202, 203, 199, 197, 195, 201, 200, 204, 194, 190.
 It is known that their weights are distributed normally.
 Is the seller's statement true, given that the confidence probability is 99%? (Conduct a two-way test.)
+# Lesson 6. The relationship of quantities. Parametric and nonparametric correlation indicators. Correlation analysis.
+The values of the bank borrowers' wages (zp) and the values of their behavioral credit scoring (ks) are given:
+zp = [35, 45, 190, 200, 40, 70, 54, 150, 120, 110],
+ks = [401, 574, 874, 919, 459, 739, 653, 902, 746, 832].
+Find the covariance of these two quantities using elementary actions, and then using the cov function from numpy
+The resulting values must be equal.
+Find the Pearson correlation coefficient using covariance and standard deviations of the two features,
+and then using functions from the numpy and pandas libraries.
+The IQ values of a sample of students
+studying at local technical universities were measured:
+131, 125, 115, 122, 131, 115, 107, 99, 125, 111.
+It is known that IQ is normally distributed in the general population.
+Find the confidence interval for the mathematical expectation with a reliability of 0.95.
+It is known that the growth of football players in the national team is distributed normally
+with the variance of the general population equal to 25 sq.cm. The sample size is 27,
+the sample average is 174.2. Find the confidence interval for the mathematical
+expectation with a reliability of 0.95.
