@@ -76,3 +76,8 @@ It is known that the growth of football players in the national team is distribu
 with the variance of the general population equal to 25 sq.cm. The sample size is 27,
 the sample average is 174.2. Find the confidence interval for the mathematical
 expectation with a reliability of 0.95.
+# Lesson 7. Multidimensional statistical analysis. Linear regression
+The values of the bank borrowers' wages (zp) and the values of their behavioral credit scoring (ks) are given: zp = [35, 45, 190, 200, 40, 70, 54, 150, 120, 110], ks = [401, 574, 874, 919, 459, 739, 653, 902, 746, 832]. Using mathematical operations, calculate the coefficients of linear regression, taking wages as X (that is, zp is a feature), and the values of the scoring score as y (that is, ks is the target variable). Make a calculation both using intercept and without.
+Calculate the linear regression coefficient for wages (zp) using gradient descent (without intercept).
+Perform calculations as in paragraph 2, but with the intercept calculation. Take into account that the coefficients must be changed
+at each step simultaneously (that is, changing one coefficient should not affect the change of the other during one iteration).
